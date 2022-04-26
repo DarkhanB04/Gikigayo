@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+html body {
+    background-color: #e0e0e0;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+nav{
+	display: flex;
+	position: fixed;
+	font-family: 'Arial';
+	font-weight: 500;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90px;
+
+}
+
+.navigation{
+display: flex;
+padding-top: 20px;
+}
+.logo{
+	max-width:150px;
+	max-height: 150px;
+	margin-top: -45px;
+	margin-left: 230px;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-between;
+	padding-left:80px;
+	margin-top: 7px;
+   
+}
+nav a{
+text-decoration: none;	
+color: #000000;
+}
+.nav-links li a:hover{
+	color: #000000;
+ }
+.nav-links li a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #000000;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}
+.nav-links li:hover a::after{
+	transform: scale(1);
+
+}
+.shirt{
+	margin-top: 100px;
+	max-width: 1000px;
+	max-height: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lang{
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	margin-top: 11px;
+	padding-left: 200px;
+	cursor: pointer;
+}
+.lang-list{
+	justify-content: space-between;
+	margin-left: 20px;
+}
+.right-side{
+  position: absolute;
+  margin-bottom: 300px;
+  left: 1100px;
+  top: 295px;
+}
+.flag{
+	max-width: 50px;
+	max-height: 26px;
+	padding-top: 5px;
+}
+.gk-desc{
+	font-size:16px; 
+	line-height: 24px;
+    white-space: nowrap;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 7px;
+}
+.right-corner{
+	float: right;
+	min-width: 400px;
+	min-height: 145px;
+	background-color: #fff;
+	margin-top: 150px;
+	display: flex;
+}
+.qr-girl{
+	max-width: 145px;
+	max-height: 145px;
+}
+.enjoy{
+	margin-top: 25px;
+	margin-left: 20px;
+	max-width:250px;
+}
+.read-more{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+.read-more:hover{
+    opacity: .90;
+}
+
+
+
+
+

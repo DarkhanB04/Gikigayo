@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="css/signUp.css">
+	<link rel="icon" href="img/fv.png" type="x-icon/img">
+</head>
+<body>
+	  <img src="img/logo-big.svg" alt="" class="left-logo">
+		<div class="right-side">
+			<a href="gikigayo.html"><i class='bx bx-exit'></i></a>
+			<div class="form-block">
+		<div class="login-form">
+			<h1 style="font-weight: 600;">Sign Up</h1>
+			<div class="p-log">
+				<p>Already have an account?</p>
+			    <p><a href="login.html" class="login">Log in</a></p>
+			</div>
+				<form action="/form" method="post">
+					<div class="loginlog">
+						<label for="name-section">Name</label> <br>
+					<input type="text" name="name" placeholder="Enter your name" class="input"> <br> <br>
+					<label for="surname-section">Surname</label> <br>
+					<input type="text" name="surname" placeholder="Enter your surname" class="input"> <br> <br>
+					<label for="email">Email adress</label> <br>
+					<input type="text" name="email" placeholder="Enter your email" class="input"> <br> <br>
+					 <label for="email">Password</label> <br>
+					<input type="text" name="password" placeholder="Enter your password" class="input"> <br> <br>
+					
+					<p class="or-sec">Or</p>					
+                <button onclick="window.location.href='https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=SignUp';" class="google-word">
+                	<img src="img/google-logo.svg" alt="" class="google-img">Sign up with Google
+                      </button>
+					</div>
+					<button class="login-btn">Sign up</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
