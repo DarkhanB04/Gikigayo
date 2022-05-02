@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600&family=Manrope:wght@300;400;500;600;700&display=swap');
+html body {
+    background-color: #e0e0e0;
+}
+a:hover{
+	text-decoration: none;
+	}
+	a{
+		color:#000;
+	}
+
+img{
+	width: 100%;
+	height: auto;
+}
+nav{
+	display: flex;
+	font-family: 'Manrope';
+	font-weight: 600;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #ddd;
+}
+
+.navigation{
+display: flex;
+padding-top: 20px;
+}
+.logo{
+	max-width:150px;
+	max-height: 150px;
+	margin-top: -45px;
+	margin-left: 230px;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-between;
+	padding-left:80px;
+	margin-top: 7px;
+}
+nav a{
+text-decoration: none;	
+color: #000000;
+}
+.nav-links li a:hover{
+	color: #000000;
+ }
+.nav-links li a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #000000;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}
+.nav-links li:hover a::after{
+	transform: scale(1);
+}
+.lang{
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	margin-top: 11px;
+	padding-left: 200px;
+	cursor: pointer;
+}
+.lang-list{
+	justify-content: space-between;
+	margin-left: 20px;
+}
+
+
